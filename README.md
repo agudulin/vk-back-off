@@ -1,6 +1,8 @@
 # VK Back Off
 
-Simple extension that removes annoying “Back” & “Go up” buttons from [VK.com](https://vk.com/).
+![VK Back Off logo](images/icon-128.png)
+
+Simple extension that removes annoying “Back” & “Go up” buttons from [VK.com](https://vk.com/). Available for **Chrome** and **Opera** (publishing in progress).
 
 ![VK Back Off in Chrome](pictures/chrome.png)
 
