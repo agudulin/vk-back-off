@@ -1,6 +1,4 @@
-# VK Back Off
-
-<img src="images/icon-128.png" width="64" height="64" alt="VK Back Off logo">
+# <img src="images/icon-64.png" width="32" height="32" align="baseline" alt="VK Back Off logo"> VK Back Off
 
 Simple extension that removes annoying “Back” & “Go up” buttons from [VK.com](https://vk.com/). Available for **Chrome** and **Opera** (publishing in progress).
 
