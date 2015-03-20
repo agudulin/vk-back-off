@@ -1,6 +1,6 @@
 {
-  "name": "add-to-things",
-  "description": "Adds any page to Things task manager",
+  "name": "vk-back-off",
+  "description": "Removes annoying “Back” & “Go up” buttons from VK.com",
   "private": true,
   "dependencies": {
     "grunt": "^0.4.5",
