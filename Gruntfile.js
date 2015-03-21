@@ -25,8 +25,7 @@ module.exports = function(grunt) {
 		compress: {
 			zip: {
 				options: {
-					archive: '<%= pkg.name %>.nex',
-					mode: 'zip'
+					archive: '<%= pkg.name %>.zip'
 				},
 				src: [
 					'_locales/**',
@@ -35,13 +34,21 @@ module.exports = function(grunt) {
 					'manifest.json'
 				]
 			}
+		},
+
+		copy: {
+			nex: {
+				src: '<%= pkg.name %>.zip',
+				dest: '<%= pkg.name %>.nex'
+			}
 		}
 
 	});
 
 	grunt.registerTask('default', [
 		'imagemin',
-		'compress'
+		'compress',
+		'copy'
 	]);
 
 };
