@@ -11,13 +11,15 @@
 		"128": "images/icon-128.png"
 	},
 	"permissions": [
-		"https://vk.com/*"
+		"https://vk.com/*",
+		"http://vk.com/*"
 	],
 	"content_scripts": [
 		{
 			"run_at": "document_end",
 			"matches": [
-				"https://vk.com/*"
+				"https://vk.com/*",
+				"http://vk.com/*"
 			],
 			"css": [
 				"styles.css"
