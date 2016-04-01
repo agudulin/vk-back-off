@@ -14,16 +14,16 @@
 		"https://vk.com/*",
 		"http://vk.com/*"
 	],
-	"content_scripts": [
-		{
-			"run_at": "document_end",
-			"matches": [
-				"https://vk.com/*",
-				"http://vk.com/*"
-			],
-			"css": [
-				"styles.css"
-			]
-		}
-	]
+	"content_scripts": [{
+		"run_at": "document_end",
+		"matches": [
+			"https://vk.com/*",
+			"http://vk.com/*",
+			"https://new.vk.com/*",
+			"http://new.vk.com/*"
+		],
+		"css": [
+			"styles.css"
+		]
+	}]
 }
