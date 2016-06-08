@@ -3,10 +3,7 @@
   "description": "Removes annoying “Back” & “Go up” buttons from VK.com",
   "private": true,
   "dependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-compress": "^1.1.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-imagemin": "^1.0.0",
-    "load-grunt-tasks": "^3.4.1"
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0"
   }
 }
